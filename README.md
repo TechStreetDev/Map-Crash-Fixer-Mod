@@ -1,4 +1,4 @@
-# Map Crash Fixer Mod <img src="https://cdn.discordapp.com/attachments/880530712179126332/887600496003674192/Untitled_1.png" width="50" height="77"/>
+# Map Crash Fixer Mod <img src="https://raw.githubusercontent.com/TechStreetDev/Map-Crash-Fixer-Mod/1.17.1/src/main/resources/assets/mapfixer/icon.png" width="50" height="50"/>
 This `1.17.1` mod fixes map crashes:
 
 Maps contain an array of bytes that each represent their own colors and hes the explaination.
