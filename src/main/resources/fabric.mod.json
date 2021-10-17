@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "cdp",
+  "version": "${version}",
+
+  "name": "MapCrashFixer",
+  "description": "A mod to fix 1.17.1 item frame map crashes.",
+  "authors": [
+    "TechStreet",
+    "Owen1212055"
+  ],
+  "contact": {
+    "homepage": "https://discord.gg/acTHnGE49D",
+    "sources": "https://github.com/TechStreetDev/Map-Crash-Fixer-Mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/mapfixer/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.techstreet.mapfixer.Main"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "custom": {
+    "modmenu:clientsideOnly": true
+  }
+}
